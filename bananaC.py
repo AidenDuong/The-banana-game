@@ -47,7 +47,7 @@ scoretext3 = GameText(150,400,"cost: "+ str(udcost1),yellow)
 scoretext4 = GameText(275,400,"cost: "+ str(udcost2),yellow)
 scoretext5 = GameText(350,400,"cost: "+ str(udcost3),yellow)
 scoretext6 = GameText(50,400,"cost: "+ str(clcikercost),yellow)
-scoretext7 = GameText(400,50,"cost: "+ str(clcikercost1),yellow)
+scoretext7 = GameText(400,35,"cost: "+ str(clcikercost1),yellow)
 
 #Gamesspriiiiiiiiit
 banana = gamesprite(200 * 2,75 * 2,"yipppe.png",width /2 - 200,height / 2 - 75)
@@ -112,7 +112,7 @@ while game:
         wait = 0
 # The damn update
     bananaman = gamesprite(600,75,"banana.gif",200 ,200)
-    scoretext7 = GameText(width -135,100,"cost: "+ str(clcikercost1),yellow)
+    scoretext7 = GameText(width -139,70,"cost: "+ str(clcikercost1),yellow)
     clicker2 = gamesprite(50,50,"cligrader.png",width - 50 ,0)
     scoretext6 = GameText(width -135,20,"cost: "+ str(clcikercost),yellow)
     clicker1 = gamesprite(50,50,"cligrader.png",width - 50,55)
